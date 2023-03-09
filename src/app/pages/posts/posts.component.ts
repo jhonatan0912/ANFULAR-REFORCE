@@ -17,4 +17,9 @@ export class PostsComponent implements OnInit {
     // .subscribe((result: any) => this.posts = result);
   }
 
+  escuchaClick(id: number) {
+    console.log('Click en ' + id);
+
+  }
+
 }
